@@ -1,0 +1,162 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 56px;
+    gap: 10px;
+}
+
+form {
+    width: 348px;
+    height: 40px;
+    display: flex;
+}
+
+.logo-youtube{
+    margin-bottom: 2px;
+    margin-left: 30px;
+}
+
+.search-bar input{
+    border: 1px solid #CCCCCC;
+    width: 348px;
+    height: 40px;
+    top: 8px;
+    left: 526px;
+}
+
+.search-bar button{
+    width: 60px;
+    height: 40px;
+    left: 870px;
+    border: 1px solid #CCCCCC;
+}
+
+.menu-itens {
+    display: flex;
+    gap: 24px;
+}
+
+.item {
+    margin-top: 6px;
+}
+
+.principal {
+    display: flex;
+    float: left;
+    width: 1000px;
+    height: 746px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.video-principal h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.informacoes{
+    display: flex;
+    width: 902px;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.info-canal {
+    width: 160px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.info-canal h2{
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.info-canal h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.informacoes button {
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+}
+
+.botoes{
+    display: flex;
+    gap: 58px;
+}
+
+.like {
+    margin-left: 30px;
+}
+
+.informacoes-video{
+    margin-top: 20px;
+}
+
+.informacoes-video h3 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.informacoes-video p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+} 
+
+.videos {
+    height: 938px;
+    width: 580px;
+    float: right;
+    margin-top: 20px;
+}
+
+.videos div{
+    padding: 5px;
+}
+
+.video-info{
+    width: 196px;
+    height: 90px;
+    padding: 7px;
+    left: 176px;
+    margin: auto;
+}
+
+.videos span{
+    display: inline-block;
+}
+
+.video-img{
+    width: 160px;
+    height: 90px;
+}
+
+.video-info h3{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.video-info p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
